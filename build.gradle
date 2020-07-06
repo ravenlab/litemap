@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    compile 'org.xerial:sqlite-jdbc:3.32.3'
+    compile 'com.zaxxer:HikariCP:3.4.5'
+}
